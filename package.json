@@ -1,0 +1,27 @@
+{
+  "name": "unity6-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/app.ts",
+  "scripts": {
+    "translate": "cross-env TARGET_LANG=zh bun scripts/translate/index.ts",
+    "format": "cross-env TARGET_LANG=zh bun scripts/format.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "cheerio": "^1.0.0",
+    "cross-env": "^7.0.3",
+    "prettier": "3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/glob": "^8.1.0",
+    "deepl-node": "^1.17.3",
+    "dotenv": "^16.4.7",
+    "glob": "^11.0.1",
+    "openai": "^4.91.1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parser": "html",
+  "printWidth": 80,
+  "tabWidth": 2,
+  "htmlWhitespaceSensitivity": "ignore"
+}
